@@ -1,0 +1,432 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html body #root .App .home .title {
+  width: 100%;
+  height: 25px;
+  background-color: cornflowerblue;
+}
+html body #root .App .home .title a {
+  text-decoration: none;
+  color: black;
+  width: 30%;
+  height: 100%;
+  display: inline-block;
+  position: relative;
+  left: 5%;
+  text-align: center;
+}
+html body #root .App .home .hot-title {
+  width: 60%;
+  list-style: none;
+}
+html body #root .App .home .hot-title #hot-title {
+  width: 100%;
+  margin-top: 20px;
+  background-color: red;
+  text-align: left;
+  height: 30px;
+  line-height: 30px;
+  font-weight: 900;
+  padding-left: 15px;
+  position: relative;
+  left: 20%;
+}
+html body #root .App .home .hot {
+  left: 12%;
+  top: 10%;
+  position: absolute;
+  list-style: none;
+  border-bottom: 5px #ff8989 solid;
+  width: 1230px;
+}
+html body #root .App .home .hot .list {
+  margin-left: 10px;
+  width: 400px;
+  float: left;
+  margin-bottom: 5px;
+}
+html body #root .App .home .hot .list .audit-video {
+  display: inline-block;
+  margin: 10px 10px;
+}
+html body #root .App .home .hot .list #pass-btn,
+html body #root .App .home .hot .list #unpass-btn {
+  width: 50px;
+  height: 25px;
+  background-color: #bbf0f5;
+  border: 1px solid #bbf0f5;
+  margin: 10px;
+  margin-bottom: 20px;
+}
+html body #root .App .login .title {
+  width: 100%;
+  height: 25px;
+  background-color: cornflowerblue;
+}
+html body #root .App .login .title a {
+  text-decoration: none;
+  color: black;
+  width: 30%;
+  height: 100%;
+  display: inline-block;
+  position: relative;
+  left: 5%;
+  text-align: center;
+}
+html body #root .App .login .login-list {
+  position: relative;
+  top: 90px;
+  left: 15%;
+  width: 300px;
+  height: 200px;
+  background-color: #99b3c8;
+  border-radius: 5%;
+}
+html body #root .App .login .login-list #username,
+html body #root .App .login .login-list #password {
+  width: 200px;
+  height: 25px;
+  margin-bottom: 20px;
+  display: inline-block;
+  position: relative;
+  left: 50px;
+  top: 40px;
+}
+html body #root .App .login .login-list .btn {
+  width: 45px;
+  height: 25px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  position: relative;
+  left: 50px;
+  top: 40px;
+  border: 1px solid #a1c6f1;
+  background-color: #a1c6f1;
+  border-radius: 5%;
+}
+html body #root .App .publish .title {
+  width: 100%;
+  height: 25px;
+  background-color: cornflowerblue;
+}
+html body #root .App .publish .title a {
+  text-decoration: none;
+  color: black;
+  width: 30%;
+  height: 100%;
+  display: inline-block;
+  position: relative;
+  left: 5%;
+  text-align: center;
+}
+html body #root .App .publish .publish-list {
+  list-style: none;
+}
+html body #root .App .publish .publish-list .pub label,
+html body #root .App .publish .publish-list .pub input {
+  position: relative;
+  left: 12%;
+  top: 30px;
+  margin-bottom: 10px;
+  margin-right: 5px;
+}
+html body #root .App .publish .publish-list .pub #pub-video {
+  position: absolute;
+  opacity: 0;
+  top: 80px;
+  z-index: 90;
+}
+html body #root .App .publish .publish-list .pub #replace {
+  width: 80px;
+  height: 25px;
+  border: 1px solid #a1c6f1;
+  background-color: #a1c6f1;
+  position: absolute;
+  top: 80px;
+  left: 12%;
+  z-index: 10;
+  border-radius: 5%;
+}
+html body #root .App .publish .publish-list .pub #span_1 {
+  position: absolute;
+  left: 12%;
+  top: 120px;
+}
+html body #root .App .publish .publish-list .pub #span_2 {
+  position: absolute;
+  left: 12%;
+  top: 180px;
+}
+html body #root .App .publish .publish-list .pub #video-title {
+  position: absolute;
+  left: 12%;
+  top: 150px;
+  width: 200px;
+  height: 25px;
+}
+html body #root .App .publish .publish-list .pub #video-introduction {
+  position: absolute;
+  left: 12%;
+  top: 210px;
+}
+html body #root .App .publish .publish-list .pub #submit-btn {
+  position: absolute;
+  left: 12%;
+  top: 370px;
+  width: 80px;
+  height: 25px;
+  border: 1px solid #a1c6f1;
+  background-color: #a1c6f1;
+  border-radius: 5%;
+}
+html body #root .App .sort .title {
+  width: 100%;
+  height: 25px;
+  background-color: cornflowerblue;
+}
+html body #root .App .sort .title a {
+  text-decoration: none;
+  color: black;
+  width: 30%;
+  height: 100%;
+  display: inline-block;
+  position: relative;
+  left: 5%;
+  text-align: center;
+}
+html body #root .App .sort .sort-list {
+  list-style: none;
+}
+html body #root .App .sort .sort-list a {
+  text-decoration: none;
+  color: #6495ed;
+}
+html body #root .App .sort .sort-list a img {
+  width: 100px;
+  height: 100px;
+  float: left;
+  margin: 10px 10px;
+}
+html body #root .App .sort .sort-list a span {
+  position: absolute;
+  top: 140px;
+}
+html body #root .App .sort .sort-list a #span0 {
+  left: 45px;
+}
+html body #root .App .sort .sort-list a #span1 {
+  left: 165px;
+}
+html body #root .App .sort .sort-list a #span2 {
+  left: 285px;
+}
+html body #root .App .person .title {
+  width: 100%;
+  height: 25px;
+  background-color: cornflowerblue;
+}
+html body #root .App .person .title a {
+  text-decoration: none;
+  color: black;
+  width: 30%;
+  height: 100%;
+  display: inline-block;
+  position: relative;
+  left: 5%;
+  text-align: center;
+}
+html body #root .App .person .person-list {
+  position: relative;
+  margin: auto;
+  width: 80%;
+  height: 400px;
+  border: gray 1px solid;
+  top: 50px;
+}
+html body #root .App .person .person-list p {
+  font-weight: 900;
+  font-size: 20px;
+  position: absolute;
+  top: 5%;
+  left: 45%;
+  bottom: 0;
+  margin: auto;
+}
+html body #root .App .person .person-list h6 {
+  position: absolute;
+  top: 12%;
+  left: 45%;
+  color: gray;
+}
+html body #root .App .person .person-list hr {
+  position: relative;
+  top: 100px;
+}
+html body #root .App .person .person-list .btn_1 {
+  text-decoration: none;
+  position: absolute;
+  top: 120px;
+  left: 25%;
+  display: inline-block;
+  width: 70px;
+  height: 25px;
+  background-color: #a1c6f1;
+  border-radius: 5%;
+  color: white;
+  text-align: center;
+}
+html body #root .App .person .person-list .btn_2 {
+  text-decoration: none;
+  position: absolute;
+  top: 120px;
+  left: 55%;
+  display: inline-block;
+  width: 70px;
+  height: 25px;
+  background-color: #a1c6f1;
+  border-radius: 5%;
+  color: white;
+  text-align: center;
+}
+html body #root .App .person .person-list #btn_3 {
+  text-decoration: none;
+  position: absolute;
+  top: 120px;
+  left: 40%;
+  display: inline-block;
+  width: 70px;
+  height: 25px;
+  background-color: #a1c6f1;
+  border-radius: 5%;
+  color: white;
+  text-align: center;
+}
+html body #root .App .audit .title {
+  width: 100%;
+  height: 25px;
+  background-color: cornflowerblue;
+}
+html body #root .App .audit .title a {
+  text-decoration: none;
+  color: black;
+  width: 30%;
+  height: 100%;
+  display: inline-block;
+  position: relative;
+  left: 5%;
+  text-align: center;
+}
+html body #root .App .audit .audit-list {
+  position: absolute;
+  top: 40px;
+  bottom: 0;
+  left: 5px;
+  list-style: none;
+}
+html body #root .App .audit .audit-list .goback {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: relative;
+  left: 0px;
+  top: -10px;
+  background-color: #bdbcbc;
+  border: #bdbcbc 1px solid;
+  opacity: 0.5;
+}
+html body #root .App .audit .audit-list .list {
+  border: solid 2px #65eaf6;
+  margin-bottom: 5px;
+}
+html body #root .App .audit .audit-list .list .audit-video {
+  display: inline-block;
+  margin: 10px 10px;
+}
+html body #root .App .audit .audit-list .list #pass-btn,
+html body #root .App .audit .audit-list .list #unpass-btn {
+  width: 50px;
+  height: 25px;
+  background-color: #bbf0f5;
+  border: 1px solid #bbf0f5;
+  margin: 10px;
+  margin-bottom: 20px;
+}
+html body #root .App .content .title {
+  width: 100%;
+  height: 25px;
+  background-color: cornflowerblue;
+}
+html body #root .App .content .title a {
+  text-decoration: none;
+  color: black;
+  width: 30%;
+  height: 100%;
+  display: inline-block;
+  position: relative;
+  left: 5%;
+  text-align: center;
+}
+html body #root .App .content .video-content {
+  width: 600px;
+  position: absolute;
+  top: 10%;
+  left: 35%;
+}
+html body #root .App .content .video-content .video-js {
+  width: 600px;
+  height: 400px;
+}
+html body #root .App .content .video-content .span-video {
+  margin-left: 5px;
+}
+html body #root .App .content .video-content #danmu {
+  width: 540px;
+  margin-bottom: 5px;
+  margin-right: 10px;
+}
+html body #root .App .content .video-content #danmu-btn {
+  width: 40px;
+}
+html body #root .App .content .video-content #danmu-btn,
+html body #root .App .content .video-content #pinglun-btn {
+  background-color: #a1c6f1;
+  border: 1px solid #a1c6f1;
+  border-radius: 5%;
+}
+html body #root .App .content .video-content .video-wrap #video {
+  overflow: hidden;
+}
+html body #root .App .content .video-content .video-wrap #video .active {
+  position: absolute;
+  left: 100%;
+  white-space: nowrap;
+  transition: all 10s linear;
+  color: aliceblue;
+  font-size: 30px;
+  font-weight: 800;
+}
+html body #root .App .content .pinglunqu {
+  width: 600px;
+  position: absolute;
+  top: 70%;
+  left: 35%;
+}
+html body #root .App .content .pinglunqu .pinglun-list {
+  list-style: none;
+  width: 100%;
+  border: 1px black solid;
+}
+html body #root .App .content .pinglunqu .pinglun-list li {
+  width: 100%;
+  height: 50px;
+  border-bottom: 1px solid black;
+  float: left;
+}
+html body #root .App .content .pinglunqu .pinglun-list li span {
+  margin-left: 10px;
+}
+html body #root .App .content .pinglunqu .pinglun-list li #moment {
+  float: right;
+}
